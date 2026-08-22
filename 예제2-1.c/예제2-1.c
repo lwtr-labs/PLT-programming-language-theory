@@ -1,0 +1,10 @@
+/*	페이지 25쪽
+	10과 20을 더하는 프로그램 실습*/
+
+#include <stdio.h>
+
+int main(void) {
+	10 + 20;
+
+	return 0;
+}
