@@ -53,3 +53,25 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# 숨김 폴더 및 캐시 (가장 중요)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 컴파일 결과물 및 빌드 폴더
+[Dd]ebug/
+[Release]/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 임시 파일
+*.aps
+*.cache
+*.tlog
+*.log
+*.vsidx
