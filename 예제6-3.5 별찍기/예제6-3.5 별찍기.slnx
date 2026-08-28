@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="예제6-3.5 별찍기/예제6-3.5 별찍기.vcxproj" />
+</Solution>
