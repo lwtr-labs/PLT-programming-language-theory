@@ -1,77 +1,13 @@
-# Prerequisites
-*.d
+# 1. 먼저 모든 파일과 폴더를 무시합니다.
+*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# 2. 하지만 하위 폴더들의 내부 탐색은 허용합니다. (중요)
+!*/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# 3. 모든 폴더 안에서 .c 파일만 예외로 허용(업로드)합니다.
+!**.c
 
-# Precompiled Headers
-*.gch
-*.pch
+# (선택) .gitignore 파일 자체도 Git에 올라가도록 허용합니다.
+!.gitignore
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
-
-# 숨김 폴더 및 캐시 (가장 중요)
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# 컴파일 결과물 및 빌드 폴더
-[Dd]ebug/
-[Release]/
-x64/
-x86/
-[Bb]in/
-[Oo]bj/
-
-# Visual Studio 임시 파일
-*.aps
-*.cache
-*.tlog
-*.log
-*.vsidx
+# code by 잼미니

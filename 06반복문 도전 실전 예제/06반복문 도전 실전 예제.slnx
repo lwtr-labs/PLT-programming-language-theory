@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="06반복문 도전 실전 예제/06반복문 도전 실전 예제.vcxproj" />
-</Solution>
