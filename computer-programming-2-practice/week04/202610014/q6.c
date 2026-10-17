@@ -10,6 +10,7 @@ int main(void) {
     printf("%.2f + %.2f = %.2f\n", x, y, result);
     result = x - y;
     printf("%.2f - %.2f = %.2f\n", x, y, result);
+    // ^ double 변수를 출력할 때는 %f 또는 %lf
     result = x * y;
     printf("%.2f * %.2f = %.2f\n", x, y, result);
     result = x / y;
