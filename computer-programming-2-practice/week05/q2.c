@@ -20,4 +20,11 @@ int main(void) {
     printf("상대오차 < ERROR: %d\n", fabs(a-b) / fabs(b) < ERROR);
 
     return 0;
+
+    /**
+     * a - b를 절대적으로 비교하면, ERROR보다 크므로 거짓.
+     * 즉, a와 b를 다르다고 판정
+     * a - b를 상대적으로 비교하면, ERROR보다 작으므로 참.
+     * 즉, a와 b를 같다고 판정.
+     */
 }

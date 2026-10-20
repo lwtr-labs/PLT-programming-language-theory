@@ -17,7 +17,8 @@ int main(void) {
     }
 
     while (compound < target) {
-        compound += compound * rate;
+        // compound += compound * rate;
+        compound *= 1.00 + rate;
         compoundYear++;
     }
 
