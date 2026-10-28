@@ -1,0 +1,10 @@
+partyA = set(["Park", "Kim", "Lee"])
+partyB = set(["Park", "Choi"])
+
+print(f"파티 A 참석자 = {partyA}")
+print(f"파티 B 참석자 = {partyB}")
+print(f"중복 없는 전체 참석자 = {partyA.union(partyB)}")
+print(f"총 인원수 = {len(partyA.union(partyB))}")
+print(f"동시에 참석한 사람 = {partyA.intersection(partyB)}")
+print(f"파티 A에만 참석한 사람 = {partyA.difference(partyB)}")
+print(f"파티 B에만 참석한 사람 = {partyB.difference(partyA)}")
