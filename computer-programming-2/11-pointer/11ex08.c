@@ -1,0 +1,23 @@
+// 포인터로 배열 접근
+
+#include <stdio.h>
+
+int main(void) {
+    int a[] = { 10, 20, 30, 40, 50 };
+    int *p = a;
+
+    printf("변경 전\n");
+    printf("a[0]=%d a[1]=%d a[2]=%d\n", a[0], a[1], a[2]);
+    printf("a[0]=%d a[1]=%d a[2]=%d\n\n", p[0], p[1], p[2]);
+
+    p[0] = 60;
+    *(p + 1) = 70;
+    *(p + 2) = 80;
+
+    printf("변경 후\n");
+    printf("a[0]=%d a[1]=%d a[2]=%d\n", a[0], a[1], a[2]);
+    printf("a[0]=%d a[1]=%d a[2]=%d\n", p[0], p[1], p[2]);
+    printf("*p=%d *(p+1)=%d *(p+2)=%d\n", *p, *(p + 1), *(p + 2));
+
+    return 0;
+}
